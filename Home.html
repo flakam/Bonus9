@@ -1,0 +1,52 @@
+<html>
+    <head>
+    <link href="home.css" rel="stylesheet">
+    <div class="header">
+            <a href="#default" class="logo">Flaka Mahmuti</a>
+            <div class="header-right">
+            <a href="portfolio.html">Portfolio </a>
+              <a href="About.html">About</a>
+
+            </div>
+          </div>
+          
+     </head>
+     <div class="header"></div>
+     <body>
+     <h2>Blog about NuGet</h2>
+     <p>NuGet is the de facto standard for distribution of packages now, and it supports semantic versioning, also known as SemVer for short. SemVer version strings (ignoring pre-release versions) are of the form major.minor.patch.            The rules of SemVer sound straightforward from the perspective of a package producer:
+            
+            <li>If you make a breaking change, you need to bump the major version</li>
+           <li> If you make backward compatible additions, you need to bump the minor version</li>
+           <l1> If you make backward and forward compatible changes (basically internal implementation changes or documentation changes) you bump the patch version</l1>
+            It also sounds straightforward from the perspective of a package consumer, considering moving from one version to another of a package:
+            
+           <li> If you move to a different major version, your existing code may not work (because everything can change between major versions)</li>
+           <li> If you move to a later minor version within the same major version, your code should still work</li>
+           <li> If you move to an earlier minor version within the same major version, your existing code may not work (because you may be using something that was introduced in the latest minor version)</li>
+           <li> If you move to a later or earlier patch version within the same major/minor version, your code should still work</li>
+            Things are not quite as clear as they sound though. What counts as a breaking change? What kind of bug fix can go into just a patch version? If a change can be detected, it can break someone, in theory at least.
+            
+            The .NET Core team has a set of rules about what is considered breaking or not. That set of rules may not be appropriate for every project. I would love to see:
+            
+            <li>Tooling to tell you what kind of changes you have made between two commits</li>
+           <li> A standard format for rules so that the tool from the first bullet can then suggest what your next version number should be; your project can then advertise that it is following those rules</li>
+            <li>A standard format to record the kinds of changes made between versions</li>
+            <li>Tooling to check for probable compatibility of the new version of a library you’re consuming, given your codebase and the record of changes</li>
+           For more information please check the full article <a href="https://codeblog.jonskeet.uk/category/csharp/">here></a>. 
+    </p>
+    <h2>Developing in C#</h2>
+    <p>C# is a powerful language that I have been willing to learn for years. Here are some basic information about the language. C# is one of the most used programming languages today. It is based on the concepts of C++, and is very similar to Java. If you know either of these languages, you should be able to learn C# basics quite easily. 
+        You can then develop C# applications and run them on the currently popular .NET framework.The most basic building block of a C# code are classes and objects. Every class has members that define the data and behavior of the class. Objects are real instances of a class. You can give public or private access to the classes defined in your program. Private classes can have only one object instance, which helps to hide data from the rest of the code. 
+        You need to start and end a class definition with left and right curly brackets respectively; this forms the class body.
+
+    </p>
+    <h2>My Hometown</h2>
+    <p>I was born in Prishtina, the capital of Kosovo.As the capital city of the Republic of Kosovo, it is the center of cultural and artistic development of all Albanians that live in Kosovo. Pristina is home to the largest cultural institutions of the country, such as the National Theatre of Kosovo, National Archaeology, Ethnography and Natural science Museum, National Art Gallery and the Ethnological Museum.
+     The National Library of Kosovo has than 1.8 million books, periodicals, maps, atlases, microfilms and other library materials. </p>
+    <div class="footer">This is Lab 9</div>
+    
+            
+    </body>
+    
+</html>
