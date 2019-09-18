@@ -1,9 +1,11 @@
 .header {
-    overflow: hidden;
+    
     background-color: lightblue;
-    padding: 10px 10px;
-   
+    position: fixed;
+    top: 0;
+    width: 100%
   }
+  .content{padding-top:50px;}
   
   
   .header a {
@@ -16,6 +18,7 @@
     line-height: 15px;
     border-radius: 4px;
     font: italic bold 15px/25px Georgia, serif;
+    
   }
   
   
@@ -53,12 +56,12 @@
     
 }
 .footer {
-    position: absolute;
-    bottom: -100;
-    width: 100%;
-    height: 30px;
-    background-color: lightblue;
-    padding: 10px 10px;
-    font: italic bold 15px/25px Georgia, serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;;
+  background-color: lightblue;
+  padding: 10px 10px;
+  font: italic bold 15px/25px Georgia, serif;
     
   }
